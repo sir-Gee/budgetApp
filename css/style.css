@@ -1,0 +1,142 @@
+body{
+    overflow: hidden;
+}
+
+.container1 .big-box{
+    float: left;
+    background: #ccc;
+    height: 1000px;
+}
+
+.big-box{
+    width: 50%;
+    text-align: center;
+
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.income-line {
+    padding: 10px;
+    font-size: 1.2rem;
+    background: rgb(199, 190, 190);
+}
+
+.expense-line {
+    padding: 10px;
+    font-size: 1.2rem;
+    background: rgb(199, 190, 190);
+    margin: 3px;
+}
+
+.value-box-income{
+    background: rgb(230, 194, 194);
+    width: 70px;
+    height: 35px;
+    /* float: right; */
+    position: absolute;
+    left: 42%;
+}
+
+.value-box-expense{
+    background: rgb(230, 194, 194);
+    width: 70px;
+    height: 35px;
+    /* float: right; */
+    position: absolute;
+    left: 91.5%;
+}
+
+#newLine{
+    display:inline-block;
+}
+
+.income-list{
+    list-style: none;
+}
+
+.expense-list{
+    list-style: none;
+}
+
+#desc-item{
+    height: 35px;
+}
+
+#select-type
+{
+    height: 35px;
+}
+
+#btn-click
+{
+    position: relative;
+    bottom: 3px;
+}
+
+#item-value
+{
+    height: 35px;
+    width: 100px;
+}
+
+.text-line
+{
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+    left:34%;
+}
+
+#type1
+{
+    padding-right: 13px;
+}
+
+#desc1
+{
+    padding:0 20px; 
+}
+
+#value1{
+    padding-left: 40px;
+}
+
+.sum
+{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    padding: 10px;
+    background: rgb(127, 223, 118);
+    width: 100px;
+    font-size: 1.7rem;
+}
+
+#btn-delete-line-inc
+{
+    position: absolute;
+    left: 47%;
+    height: 35px;
+    margin: 1px;
+}
+
+#btn-delete-line-exp
+{
+    position: absolute;
+    right: 1%;
+    height: 35px;
+}
+
+.total-budget
+{
+    position: absolute;
+    right: 290px;
+    top: 60px;
+    font-size: 1.7rem;
+
+}
